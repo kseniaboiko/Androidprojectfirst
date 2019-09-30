@@ -4,23 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="84dp"
-        android:layout_height="172dp"
-        tools:layout_editor_absoluteX="488dp"
-        tools:layout_editor_absoluteY="904dp"
-        tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+        android:layout_width="206dp"
+        android:layout_height="267dp"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="380dp"
+        tools:srcCompat="@drawable/pinkhellokitty" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickButton"
+        android:text="Имя кота"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="744dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
