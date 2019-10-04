@@ -11,18 +11,21 @@
         android:id="@+id/imageButton"
         android:layout_width="206dp"
         android:layout_height="267dp"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="380dp"
+        android:onClick="onClickButton"
+        android:src="@drawable/pinkhellokitty"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="157dp"
+        tools:src="@drawable/pinkhellokitty"
         tools:srcCompat="@drawable/pinkhellokitty" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onClickButton"
+
         android:text="Имя кота"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        tools:layout_editor_absoluteX="288dp"
-        tools:layout_editor_absoluteY="744dp" />
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="483dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
